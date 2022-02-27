@@ -1,0 +1,130 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+background: url('星云.jpg') no-repeat;
+background-size: cover;
+}
+.img1
+{
+    position: absolute;
+    top:90px;
+    left: 625px;
+}
+#load
+{
+    position: absolute;
+    top:150px;
+    left: 485px;
+   width:550px;
+   height:500px;
+   background-color: rgb(168, 165, 160,0.2);
+   border:1px solid;
+   border-color: black;
+   border-radius: 5px;
+}
+.USER
+{
+-webkit-appearance:none;
+-moz-appearance: none;
+outline:0;
+position:absolute;
+left:630px;
+top:350px;
+width:250px;
+height:35px;
+border-radius:20px;
+background-color:rgba(253, 253, 253, 0.3);
+text-align: center;
+border:none;
+}
+.USER::placeholder
+{
+    color: rgb(18, 19, 18,0.8);
+    font-family: 'Courier New', Courier, monospace;
+    font-size:15px;
+    font-weight: 600;
+}
+.PASSWORD
+{
+    -webkit-appearance:none;
+-moz-appearance: none;
+outline:0;
+position:absolute;
+left:630px;
+top:425px;
+width:250px;
+height:35px;
+border-radius:20px;
+background-color:rgba(253, 253, 253, 0.3);
+text-align: center;
+border:none;
+}
+.PASSWORD::placeholder
+{
+    color: rgb(18, 19, 18,0.8);
+    font-family: 'Courier New', Courier, monospace;
+    font-size:15px;
+    font-weight: 600;
+}
+.LOAD
+{
+background-color: rgba(102, 197, 235, 0.7);
+position:absolute;
+left:630px;
+top:500px;
+width:250px;
+height:35px;
+border-radius:20px;
+text-align: center;
+border:none;
+}
+
+.LOAD:hover
+{
+    background-color:rgb(0, 100, 250,1) ;
+}
+.LOAD:active{
+    background-color: rgba(102, 197, 235, 0.7);
+}
+.enroll
+{
+    position:absolute;
+    top:550px;
+    left:575px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: rgb(255, 255, 255,0.6);
+}
+.enroll:hover
+{
+    color:rgb(255, 255, 255);
+}
+.others
+{
+    position:absolute;
+    top:550px;
+    left:885px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: rgb(255, 255, 255,0.6);
+}
+.others:hover
+{
+    color:rgb(255, 255, 255);
+}
+.USER:hover
+{
+    background-color:rgb(255, 255, 255,0.7);
+}
+.PASSWORD:hover
+{
+    background-color:rgb(255, 255, 255,0.7);
+}
+
+
+
+
